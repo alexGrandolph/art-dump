@@ -18,7 +18,6 @@ const useStorage = (file) => {
     }, (err) => {
       setError(err);
     }, async () => {
-      // const downloadedUrl = await storageRef.getDownloadUrl();
       const url = await storageRef.getDownloadURL();
       const createdAt = timestamp();
 
