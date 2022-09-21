@@ -1,0 +1,12 @@
+
+.img-grid {
+  columns: 3;
+  margin: 20px;
+  gap: 40px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
