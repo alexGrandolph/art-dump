@@ -13,5 +13,49 @@
 
 .title h2 {
   margin-top: 60px;
-  font-size: 2.6rem;
+  font-size: 3.6rem;
+  height: 100%;
 }
+
+.dump {
+  color: #efb6b2;;
+  width: 100px;
+  height: 100px;
+  background: red;
+  background: #fe2323;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+/* @keyframes mymove {
+  0% {
+    transform: rotate(0);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%,
+  60% {
+    transform: rotate(80deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  40% {
+    transform: rotate(60deg);
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  80% {
+    transform: rotate(60deg) translateY(0);
+    opacity: 1;
+    transform-origin: top left;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    transform: translateY(700px);
+    opacity: 0;
+  }
+} */
