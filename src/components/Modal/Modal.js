@@ -3,10 +3,10 @@ import './Modal.css'
 
 import React from 'react'
 
-const Modal = () => {
+const Modal = ({ selectedImage }) => {
   return (
     <div className="backdrop">
-      <img src="" alt="modal/close up of selected picture"/>
+      <img src={selectedImage} alt="modal/close up of selected picture"/>
     </div>
   )
 }

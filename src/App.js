@@ -13,7 +13,7 @@ function App() {
       <Header />
       {/* <UploadForm /> */}
       <ImageGrid setSelectedImage={setSelectedImage} />
-      <Modal />
+      <Modal selectedImage={selectedImage}/>
     </div>
   );
 }
