@@ -5,7 +5,9 @@ import React from 'react'
 
 const Modal = () => {
   return (
-    <div>Modal</div>
+    <div className="backdrop">
+      <img src="" alt="modal/close up of selected picture"/>
+    </div>
   )
 }
 
