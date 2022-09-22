@@ -5,13 +5,13 @@ const useFirestore = (collection) => {
   const [docs, setDocs] = useState([]);
 
   useEffect(() => {
-    console.log('FIRED')
+    // console.log('FIRED')
     const unsub = projectFirestore.collection(collection)
       .orderBy('createdAt', 'desc')
       .onSnapshot(snap => {
         let documents = [];
         snap.forEach(doc => {
-          console.log(doc)
+          // console.log(doc)
           documents.push({ ...doc.data(), id: doc.id });
         });
         setDocs(documents);
