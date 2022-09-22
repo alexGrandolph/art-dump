@@ -3,12 +3,12 @@
   columns: 3;
   margin: 20px;
   gap: 40px;
+  padding-top: 125px;
 }
 
 .image {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 20px;
   border: 2px solid #fe2323;
-  box-shadow: 2px 2px 10px red;
 }
