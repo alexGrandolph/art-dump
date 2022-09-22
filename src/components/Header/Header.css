@@ -39,36 +39,5 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  /* z-index: 1; */
 }
-/* @keyframes mymove {
-  0% {
-    transform: rotate(0);
-    transform-origin: top left;
-    animation-timing-function: ease-in-out;
-  }
-
-  20%,
-  60% {
-    transform: rotate(80deg);
-    transform-origin: top left;
-    animation-timing-function: ease-in-out;
-  }
-
-  40% {
-    transform: rotate(60deg);
-    transform-origin: top left;
-    animation-timing-function: ease-in-out;
-  }
-
-  80% {
-    transform: rotate(60deg) translateY(0);
-    opacity: 1;
-    transform-origin: top left;
-    animation-timing-function: ease-in-out;
-  }
-
-  100% {
-    transform: translateY(700px);
-    opacity: 0;
-  }
-} */

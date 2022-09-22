@@ -1,5 +1,5 @@
 import './Modal.css'
-
+import { motion } from 'framer-motion'
 
 import React from 'react'
 
@@ -13,12 +13,19 @@ const Modal = ({ selectedImage, setSelectedImage }) => {
   }
   
   return (
-    <div 
+    <motion.div 
       className="backdrop"
       onClick={handleClick}
+      initial={{ opacity: 0 }}
+      animate={({ opacity: 1 })}
     >
-      <img src={selectedImage} alt="modal/close up of selected picture"/>
-    </div>
+      <motion.img 
+        src={selectedImage} 
+        alt="modal/close up of selected picture"
+        initial={{ y: "-100vh;" }}
+        animate={{ y: 0 }}
+      />
+    </motion.div>
   )
 }
 
